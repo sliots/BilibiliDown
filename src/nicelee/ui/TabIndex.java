@@ -87,7 +87,7 @@ public class TabIndex extends JPanel implements ActionListener, MouseListener, I
 //		this.add(jpBLANK1);
 
 		//头像模块
-		URL fileURL = this.getClass().getResource("/resources/title.png");
+		URL fileURL = this.getClass().getResource("/resources/favicon.png");
 		ImageIcon imgIcon = new ImageIcon(fileURL);
 		//imgIcon = new ImageIcon(imgIcon.getImage().getScaledInstance(350, 350, Image.SCALE_SMOOTH));
 		JLabel jLabel = new JLabel(imgIcon);
