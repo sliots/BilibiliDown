@@ -57,7 +57,7 @@ public class GetVideoDetailThread extends Thread{
 					video.getLbAvPrivew().setText("无效预览图");
 				}
 			} else {
-				video.getLbAvPrivew().setText("不显示预览");
+				video.getLbAvPrivew().setText(" ");
 			}
 			video.getLbBreif().setText(avInfo.getBrief());
 			video.getLbBreif().setToolTipText(avInfo.getBrief());
